@@ -1,0 +1,23 @@
+ .nav_bar{
+    width: 25vh;
+    height: 100vh;
+    position: absolute;
+    background: rgb(22, 22, 22);
+    color: grey;
+    /* visibility: hidden; */
+}
+a{
+    color: grey;
+}
+.nav_bar ul a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: right;
+}
+.nav_bar ul li{
+    list-style-type: none; 
+}
+/* .fa-home{
+    text-align: left;
+} */
