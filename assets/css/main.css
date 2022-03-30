@@ -1,23 +1,40 @@
+*{ margin: 0; }
  .nav_bar{
-    width: 25vh;
+    margin-left: 0px;
+    width: 23vh;
     height: 100vh;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     background: rgb(22, 22, 22);
     color: grey;
+    display: inline-block;
     /* visibility: hidden; */
 }
-a{
-    color: grey;
+.nav_bar ul{
+    padding-top: 2vh;
 }
-.nav_bar ul a{
+.nav_bar a{
+    color: grey;
     display: block;
     padding: 15px;
     text-decoration: none;
-    text-align: right;
+    text-align: left;
 }
-.nav_bar ul li{
+.nav_bar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.nav_bar li{
     list-style-type: none; 
 }
-/* .fa-home{
-    text-align: left;
-} */
+.main{
+    margin-left: 24vh;
+    display: inline-block;
+}
+/* contact */
+.main span{
+    padding-left: 10px;
+    size: 50px;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
