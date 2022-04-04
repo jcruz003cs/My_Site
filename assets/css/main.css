@@ -14,17 +14,37 @@ label.page-name{
     font-weight: bold;
 }
 nav ul{
-    float: right;
-    
+    float: right; 
 }
 nav ul li{
     display: inline-block;
     line-height: 50px;
     padding-right: 50px;
+    font-size: 30px;
 }
 main{
     text-align: center;
+    color: white;
     /* background: rgb(50, 50, 50); */
+}
+.resume{
+    margin-top: 100px;
+}
+.resume h3{
+    font-weight: normal;
+}
+.resume button{
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    border-style: solid;
+    cursor: pointer;
+    color: white;
+}
+.resume button:hover{
+    transition-property: background;
+    transition-duration: 2s;
+    background: rgba(255, 255, 255, .1);
 }
 a{
     color: white;
@@ -45,4 +65,58 @@ footer p{
 }
 .fa-brands{
     color: white;
+}
+body{
+    background: url(/assets/images/background-image.jpg), linear-gradient(rgb(22,22,22), rgb(22,22,22)) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.projects-cards{
+    block-size: 50px;
+    width: 250px;
+    height: 520px;
+    background: white;
+    border-radius: 10px;
+    top: 20%;
+    left: 30%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 130px;
+    grid-template-areas: "image" "skills" "gh-link";
+}
+.card-img{
+    grid-area: image;
+    background: url(/assets/images/Card-site.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-exp{
+    padding: 5px;
+}
+.card-exp h3{
+    margin-top: 10px;
+    text-align: left;
+}
+.card-skills{
+    text-align: center;
+}
+.card-skills ul{
+    list-style: none;
+}
+.card-skills .fa-brands{
+    color: rgb(22, 22, 22);
+}
+.card-skills .fa-brands p{
+    padding-bottom: 50px;
+}
+.gh-link{
+    text-align: center;
+    padding-top: 81px;
+}
+.gh-link .fa-brands{
+    color: black;
 }
