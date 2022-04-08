@@ -27,6 +27,9 @@ main{
     color: white;
     /* background: rgb(50, 50, 50); */
 }
+main h1{
+    font-size: 50px;
+}
 .resume{
     margin-top: 100px;
 }
@@ -63,9 +66,6 @@ footer{
 footer p{
     padding-bottom: 10px;
 }
-.fa-brands{
-    color: white;
-}
 body{
     background: url(/assets/images/background-image.jpg), linear-gradient(rgb(22,22,22), rgb(22,22,22)) ;
     background-size: cover;
@@ -84,7 +84,7 @@ body{
     display: grid;
     grid-template-columns: 250px;
     grid-template-rows: 130px;
-    grid-template-areas: "image" "skills" "gh-link";
+    grid-template-areas: "image" "skills" "card-links";
 }
 .card-img{
     grid-area: image;
@@ -99,7 +99,7 @@ body{
 }
 .card-exp h3{
     margin-top: 10px;
-    text-align: left;
+    text-align: center;
 }
 .card-skills{
     text-align: center;
@@ -113,10 +113,27 @@ body{
 .card-skills .fa-brands p{
     padding-bottom: 50px;
 }
-.gh-link{
+.card-links{
     text-align: center;
-    padding-top: 81px;
 }
-.gh-link .fa-brands{
+.card-links ul{
+    list-style: none;
+}
+.card-links li{
+    padding: 3px;
+}
+.card-links button{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
     color: black;
+}
+.card-links button:hover{
+    transition-property: background, color;
+    transition-duration: 2s;
+    background: black;
+    color: white;
 }
