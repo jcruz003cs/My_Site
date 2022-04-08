@@ -67,7 +67,7 @@ footer p{
     padding-bottom: 10px;
 }
 body{
-    background: url("My_Site/assets/images/background-image.jpg"), linear-gradient(rgb(22,22,22), rgb(22,22,22)) ;
+    background: url("/assets/images/background-image.jpg");
     /* background: url("https://jcruz003cs.github.io/My_Site/assets/images/background-img.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
