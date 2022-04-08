@@ -68,7 +68,7 @@ footer p{
 }
 body{
     /* background: url("/assets/images/background-image.jpg"); */
-    background: url("/assets/images/background-image.jpg");
+    background: url("My_Site/assets/images/background-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -89,7 +89,7 @@ body{
 }
 .card-img{
     grid-area: image;
-    background: url("assets/images/Card-site.png");
+    background: url("/My_Site/assets/images/Card-site.png");
     background-size: contain;
     background-repeat: no-repeat;
     border-top-left-radius: 10px;
